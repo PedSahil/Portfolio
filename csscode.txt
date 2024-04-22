@@ -1,0 +1,414 @@
+
+/* * cv */
+.main_container{
+    width: 65%;
+    height: 1295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 4px dotted red ; */
+}
+
+.cv_container{
+    height: 1000px;
+    width: 710px;
+}
+    /* animation-name: greencolor ;
+    animation-duration: 7s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes greencolor {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} */
+
+/* ^ cv part 1 */
+.con1{
+    height: 147px;
+    width: 710px;
+    /* border: 2px solid blue; */
+    background-color: #374C39;
+    display: flex;
+}
+
+.cv_container .boxx1{
+    height: 147px;
+    width: 550px;
+    /* border: 2px dashed black; */
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.boxx1 .sahil{
+    margin-top: 10px;
+    height: 35px;
+    width: 233px;
+    /* border: 1px solid red; */
+    background-image: url(portfolio_Images/cv_images/sahil.png);
+    background-size: cover;
+    /* animation: sahil 1s linear .5s 1 ; */
+}
+
+.boxx1 .graduate{
+    height: 16px;
+    width:76px;
+    /* border: 1px solid red; */
+    background-image: url(portfolio_Images/cv_images/graduate.png);
+    background-size: cover;
+}
+.boxx1 .looking{
+    height: 50px;
+    width: 527px;
+    /* border: 1px solid red; */
+    background-image: url(portfolio_Images/cv_images/looking.png);
+    background-size: cover;
+}
+.boxx2{
+    height:150px ;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxx2 .photo{
+    height: 108px;
+    width: 109px;
+    background-image: url(portfolio_Images/cv_images/photo.png);
+    background-size: cover;
+}
+
+/* ^ cv part 2 */
+.cv_container .con2{
+    height: 76px;
+    width: 710px;
+    /* border: 2px dashed black; */
+    background-color: #213C3C;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 70px;
+}
+
+.con2 .address{
+    height: 55px;
+    width: 254px;
+    /* border: 1px solid red; */
+    background-image: url(portfolio_Images/cv_images/address.png);
+    background-size: cover;
+}
+.con2 .email{
+    height: 55px;
+    width: 254px;
+    /* border: 1px solid red; */
+    background-image: url(portfolio_Images/cv_images/email.png);
+    background-size: cover;
+}
+/* ^ cv part 3 */
+.cv_container .con3{
+    height: 777px;
+    width: 710px;
+    /* border: 2px dashed black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+.mainbox1{
+    /* border: 2px solid green; */
+    height: 623px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.con3 .box1{
+    height: 623px;
+    width: 330px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5px;
+}
+.con3 .box1 .div1{
+    height:18px ;
+    width:95px ;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/education.png);
+    background-size: cover;
+}
+.con3 .box1 .div2{
+    height:60px ;
+    width:318px ;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/be.png);
+    background-size: cover;
+}
+.con3 .box1 .div3{
+    height:70px ;
+    width:323px ;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/diploma.png);
+    background-size: cover;
+}
+.con3 .box1 .div4{
+    height:65px ;
+    width:332px ;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/tenth.png);
+    background-size: cover;
+}
+.con3 .box1 .div5{
+    height:18px ;
+    width:95px ;
+    /* border: 1px dotted black; */
+    background-image: url(/portfolio_Images/cv_images/internships.png);
+    background-size: cover;
+}
+.con3 .box1 .div6{
+    height:60px ;
+    width:248px ;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/dolphin.png);
+    background-size: cover;
+}
+.con3 .box1 .div7{
+    height:60px ;
+    width:248px ;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/iot.png);
+    background-size: cover;
+}
+.con3 .box1 .div8{
+    height:18px ;
+    width:95px ;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/languages.png);
+    background-size: cover;
+}
+.con3 .box1 .lang1{
+    height:17px ;
+    width:220px ;
+    /* border: 1px dotted black; */
+    display: flex;
+    justify-content: space-between;
+}
+.lang1 .english{
+    height: 100%;
+    width: 45%;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/english.png);
+    background-size: cover;
+}
+.lang1 .kannada{
+    height: 100%;
+    width: 45%;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/kannada.png);
+    background-size: cover;
+}
+
+.con3 .box1 .lang2{
+    display: flex;
+    justify-content: space-between;
+    height:17px ;
+    width:270px ;
+    /* border: 1px dotted black; */
+    
+}
+.lang2 .hindi{
+    height: 100%;
+    width: 40%;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/hindi.png);
+    background-size: cover;
+}
+.lang2 .konkani{
+    height: 100%;
+    width: 55%;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/konkani.png);
+    background-size: cover;
+}
+
+
+.con3 .box2{
+    height: 623px;
+    width: 330px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: space-around;
+
+}
+.con3 .box2 .divi1{
+    height: 18px; ;
+    width: 95px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/skills.png);
+    background-size: cover;
+}
+.con3 .box2 .divi2{
+    height: 150px; ;
+    width: 300px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/skillset.png);
+    background-size: cover;
+}
+.con3 .box2 .divi3{
+    height: 18px; ;
+    width: 95px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/projects.png);
+    background-size: cover;
+}
+.con3 .box2 .divi4{
+    height: 60px; ;
+    width: 304px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/objectpicking.png);
+    background-size: cover;
+}
+.con3 .box2 .divi5{
+    height: 77px; ;
+    width: 304px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/online_attendence.png);
+    background-size: cover;
+}
+.con3 .box2 .divi6{
+    height: 81px; ;
+    width: 304px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/sms_fraud.png);
+    background-size: cover;
+}
+.con3 .box2 .divi7{
+    height: 18px; ;
+    width: 95px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/hobbies.png);
+    background-size: cover;
+}
+.con3 .box2 .divi8{
+    height: 22px; ;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.divi8 .swim{
+    height: 22px; ;
+    width: 84px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/swimming.png);
+    background-size: cover;
+}
+.divi8 .fish{
+    height: 22px; ;
+    width: 84px;
+    /* border: 1px dotted black; */
+    background-image: url(portfolio_Images/cv_images/fishing.png);
+    background-size: cover;
+}
+
+
+.con3 .mainbox2{
+    height: 200px;
+    width: 700px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.mainbox2 .declare{
+    height: 14px;
+    width: 94px;
+    background-image: url(portfolio_Images/cv_images/declaration.png);
+    background-size: cover;
+}
+.mainbox2 .ihere{
+    height: 30px;
+    width: 640px;
+    background-image: url(portfolio_Images/cv_images/i_hereby.png);
+    background-size: cover;
+}
+.mainbox2 .greenline{
+    margin-top: 20px;
+    height: 8px;
+    width: 650px;
+    background-color:#213C3C;
+}
+
+/* * cv ENDS  */
+
+ <!-- <section class="main_container">
+        <article class="cv_container">
+            <section class="con1">
+                <div class="boxx1">
+                <article class="sahil"></article>
+                <article class="graduate"></article>
+                <article class="looking"></article>
+                <article class="photo"></article>
+                </div>
+                <div class="boxx2">
+                    <article class="photo"></article>
+                </div>
+            </section>
+            <section class="con2">
+                <article class="address"></article>
+                <article class="email"></article>
+            </section>
+            <section class="con3">
+                <section class="mainbox1">
+                    <article class="box1">
+                        <div class="div1"></div>
+                        <div class="div2"></div>
+                        <div class="div3"></div>
+                        <div class="div4"></div>
+                        <div class="div5"></div>
+                        <div class="div6"></div>
+                        <div class="div7"></div>
+                        <div class="div8"></div>
+                        <div class="lang1">
+                            <aside class="english"></aside>
+                            <aside class="kannada"></aside>
+                        </div>
+                        <div class="lang2">
+                            <aside class="hindi"></aside>
+                            <aside class="konkani"></aside>
+                        </div>
+                    </article>
+                    <article class="box2">
+                        <div class="divi1"></div>
+                        <div class="divi2"></div>
+                        <div class="divi3"></div>
+                        <div class="divi4"></div>
+                        <div class="divi5"></div>
+                        <div class="divi6"></div>
+                        <div class="divi7"></div>
+                        <div class="divi8">
+                            <aside class="swim"></aside>
+                            <aside class="fish"></aside>
+                        </div>
+                    </article>
+                </section>
+                <section class="mainbox2">
+                    <aside class="declare"></aside>
+                    <aside class="ihere"></aside>
+                    <aside class="greenline"></aside>
+                </section>
+            </section>
+        </article>
+</section> -->
